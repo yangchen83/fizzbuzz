@@ -10,5 +10,5 @@ function printFizzBuzz(n) {
 			console.log(i);
 		}
 	}
-	return
+	return;
 }
