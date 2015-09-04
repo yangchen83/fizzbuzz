@@ -5,7 +5,7 @@ $(document).ready(function() {
       if (isNaN(n)) {
         div.innerHTML = '<p>What you entered is not a number. Please enter again!</p>';
       } else if (n < 1) {
-        div.innerHTML = '<p>The number has be to larger or equal to 1. Please enter again!</p>';
+        div.innerHTML = '<p>The number has be to greater or equal to 1. Please enter again!</p>';
       } else {
         div.innerHTML = '';
         for (i = 1; i <= n; i++) {
